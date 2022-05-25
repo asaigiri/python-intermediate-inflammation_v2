@@ -7,7 +7,3 @@ def test_random():
     sample = np.random.normal(mean, sdev, sample_size)
     np.testing.assert_almost_equal(mean, np.mean(sample), decimal=2)
     np.testing.assert_almost_equal(sdev, np.std(sample), decimal=2)
-
-    
-
-    
