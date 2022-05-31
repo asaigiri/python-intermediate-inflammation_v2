@@ -2,6 +2,10 @@
 .vscode/
 .idea/
 
+# ignore virtual environment
+venv/
+.venv/
+
 # Intermediate Coverage file
 .coverage
 
